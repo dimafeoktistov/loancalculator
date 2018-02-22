@@ -30,6 +30,10 @@ function calculateLoan() {
     showError('Please choose the numbers');
     document.querySelector('#loading').style.display = 'none';
   }
+
+  amount.value = '';
+  interest.value = '';
+  years.value = '';
 }
 
 function showError(error) {
