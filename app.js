@@ -29,7 +29,6 @@ function calculateLoan() {
   } else {
     showError('Please choose the numbers');
     document.querySelector('#loading').style.display = 'none';
-    // console.log('check your numbers');
   }
 }
 
