@@ -29,8 +29,11 @@ function calculateLoan() {
   } else {
     showError('Please choose the numbers');
     document.querySelector('#loading').style.display = 'none';
-    // console.log('check your numbers');
   }
+
+  amount.value = '';
+  interest.value = '';
+  years.value = '';
 }
 
 function showError(error) {
